@@ -1,0 +1,29 @@
+{
+  "name": "vibe-express",
+  "version": "1.0.0",
+  "description": "A platform that captures and monetizes users' awkward silences and cringe moments.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "jsonwebtoken": "^8.5.1",
+    "stripe": "^8.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.0.0",
+    "jest": "^26.6.0",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.14.0",
+    "@types/express": "^4.17.8"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
